@@ -18,8 +18,11 @@
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
 
+
+<!------------------ Header ---------------------->
+
+<body>
   <header class="page-header">
     <div class="container header-container">
       <nav class="header-nav">
@@ -44,10 +47,20 @@
           </li>
         </ul>
       </address>
+
+      <!-- Burger menu -->
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#menu-burger"></use>
+        </svg>
+      </button>
+
     </div>
   </header>
 
 
+
+  <!--------------- Hero ------------------->
   <main>
     <section class="hero">
       <div class="container">
@@ -57,7 +70,7 @@
     </section>
 
 
-
+    <!-------------- Section Advantages -------------------->
 
     <section class="advantages">
       <div class="container">
@@ -125,7 +138,7 @@
     </section>
 
 
-
+    <!---------------- Section Our Team -------------------->
 
     <section class="our-team">
       <div class="container">
@@ -290,7 +303,7 @@
     </section>
 
 
-
+    <!---------------- Section Our Portfolio -------------------->
 
 
     <section class="our-portfolio">
@@ -377,7 +390,7 @@
     </section>
   </main>
 
-
+  <!-------------------- Footer -------------------->
 
 
   <footer class="page-footer">
@@ -438,11 +451,12 @@
           </button>
         </form>
       </div>
-
     </div>
   </footer>
 
-  <div class="backdrop is-open">
+  <!----------------- Modal Window ------------------->
+
+  <div class="backdrop is-open hidden">
     <div class="modal">
       <button class="close-btn" type="button">
         <svg class="close-modal" width="8" height="8">
